@@ -1,0 +1,1 @@
+Delete parla account screen

@@ -1,0 +1,23 @@
+Title: Notification flow Create
+
+Note right of Client A: init PeerConnection {offer}
+Client A -> Server:  Create search {query} {know-hows} {offer}
+Note right of Server: Find 5 users
+Server -> OneSignal: Request push for 5 users
+OneSignal --> Client B: Send create call push
+Note right of Client B: init PeerConnection {Answer}
+OneSignal --> Client C: Send create call push
+Note right of Client C: Do nothing
+OneSignal --> Client D: Send create call push
+Note right of Client D: init PeerConnection {Answer}
+Client B -> Server: Create call request
+Client D -> Server: Create call request
+Server -> Client D: Reject call
+Server -> OneSignal: Request push for 4 users {cancel}
+Server -> OneSignal: Request push for 1 user {accept}
+OneSignal --> Client C: Send {cancel} push {ios-config}
+OneSignal --> Client C: Send {cancel} push {android-config}
+OneSignal --> Client A: Send {accept} push {ios-config}
+OneSignal --> Client A: Send {accept} push {android-config}
+Note right of Client A: PeerConnection aprove {Answer}
+Client A -> Client B: OpenConnection

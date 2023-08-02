@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "767157319616",
+    "project_id": "parla-b0a33",
+    "storage_bucket": "parla-b0a33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767157319616:android:49c1acb0c6a63b9c45fa25",
+        "android_client_info": {
+          "package_name": "chat.parla.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767157319616-2bl3juol8favp6klenjud43ue3h2ldgl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chat.parla.mobile",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "767157319616-2pr05pc4f8fbmj5s3be3mjgn07hqg0r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdR-zcTtpdzOULOq1FbyCGukWkQ-leR0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767157319616-2pr05pc4f8fbmj5s3be3mjgn07hqg0r1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "767157319616-ck212tpsebq0dlg07ur627jk0iv0i6cq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "chat.parla.mobile",
+                "app_store_id": "1577159591"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

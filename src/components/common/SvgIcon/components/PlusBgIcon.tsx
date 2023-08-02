@@ -1,0 +1,16 @@
+import React from 'react';
+import { Circle, Path } from 'react-native-svg';
+import { ContentProps, SvgIcon } from '../types';
+
+export const PlusBgIcon: SvgIcon = {
+  name: 'plusbg-icon',
+  baseWidth: 30,
+  baseHeight: 30,
+  Content: ({ color }: ContentProps) => (
+    <>
+      <Circle cx="15" cy="15" r="15" fill={color} />
+      <Path d="M15 10V20" stroke="#7A869A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <Path d="M20 15L10 15" stroke="#7A869A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </>
+  ),
+};

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>767157319616-ck212tpsebq0dlg07ur627jk0iv0i6cq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.767157319616-ck212tpsebq0dlg07ur627jk0iv0i6cq</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>767157319616-2bl3juol8favp6klenjud43ue3h2ldgl.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcCUNRtERGKt0lITpmb_6KYl2lLI6BY5o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>767157319616</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>chat.parla.mobile</string>
+	<key>PROJECT_ID</key>
+	<string>parla-b0a33</string>
+	<key>STORAGE_BUCKET</key>
+	<string>parla-b0a33.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:767157319616:ios:527be3b6771298bb45fa25</string>
+</dict>
+</plist>

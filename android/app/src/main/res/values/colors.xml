@@ -1,0 +1,5 @@
+<resources>
+  <color name="PushColor">#0052CC</color>
+  <color name="bootsplash_background">#FFFFFF</color>
+    <!-- <color name="bootsplash_background">#F5FCFF</color> -->
+</resources>

@@ -1,0 +1,131 @@
+import { Platform, StyleSheet } from 'react-native';
+
+import { Colors } from '../../../../../styles';
+import { fontSize, hp, wp } from '../../../../../styles/metrics';
+
+export default StyleSheet.create({
+  overlay: {
+    margin: 0,
+    justifyContent: 'flex-end',
+  },
+  main: {
+    height: hp(52),
+    borderRadius: wp(5.33),
+    paddingVertical: hp(3),
+    paddingHorizontal: wp(4.2),
+    backgroundColor: Colors.white,
+    borderBottomEndRadius: 0,
+    borderBottomStartRadius: 0,
+  },
+  bottomAlert: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  bottomAlertText: {
+    flex: 1,
+    fontSize: fontSize(17),
+    lineHeight: fontSize(20),
+    letterSpacing: -0.24,
+    fontWeight: '500',
+  },
+  dotContent: {
+    height: wp(2.5),
+    borderRadius: wp(2.5) / 2,
+    marginHorizontal: wp(1.2),
+  },
+  inputContent: {
+    backgroundColor: Colors.greyish22,
+    borderRadius: 13,
+    marginTop: hp(9),
+    paddingVertical: Platform.OS == 'ios' ? hp(1.33) : 0,
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginRight: wp(2.6),
+    paddingHorizontal: wp(3.4),
+  },
+  textInput: {
+    fontSize: fontSize(14),
+    lineHeight: fontSize(20),
+    letterSpacing: -0.24,
+    fontWeight: '400',
+    color: Colors.primary5,
+    marginLeft: wp(3.5),
+  },
+  addContent: {
+    marginTop: hp(2),
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  addContentCard: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 13,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginRight: wp(3),
+    marginBottom: hp(1.4),
+  },
+  addContentCardText: {
+    fontSize: fontSize(14),
+    fontWeight: '500',
+    paddingVertical: hp(1.4),
+    paddingHorizontal: wp(4),
+  },
+  footerText: {
+    fontSize: fontSize(13),
+    fontWeight: '500',
+    lineHeight: fontSize(22),
+    color: Colors.greyish1,
+    textAlign: 'center',
+  },
+  gotBtn: {
+    // alignItems: 'center',
+    marginHorizontal: wp(28),
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: Colors.accent17,
+    backgroundColor: Colors.primary4,
+    marginVertical: hp(3.2),
+    marginTop: hp(1),
+    marginBottom: hp(0.5),
+    shadowOffset: {
+      width: 0,
+      height: 0,
+    },
+    shadowOpacity: 0.01,
+    shadowRadius: 5,
+    elevation: 5,
+  },
+  gotBtnText: {
+    fontSize: fontSize(14),
+    fontWeight: '500',
+    paddingVertical: hp(1.4),
+    color: Colors.white,
+    textAlign: 'center',
+  },
+  serachContent: {
+    backgroundColor: Colors.primary2,
+    alignItems: 'center',
+    marginHorizontal: wp(11),
+    borderRadius: 13,
+    paddingVertical: wp(2.9),
+    marginVertical: hp(13),
+  },
+  serachContentIcon: {
+    position: 'absolute',
+    right: 0.2,
+    top: Platform.OS == 'ios' ? hp(3) : hp(3.5),
+  },
+  serachContentText: {
+    fontSize: fontSize(14),
+    fontWeight: '500',
+    color: Colors.white,
+  },
+  serachIcon: {
+    alignItems: 'center',
+    marginVertical: hp(5.6),
+  },
+});

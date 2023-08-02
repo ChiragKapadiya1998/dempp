@@ -1,0 +1,112 @@
+import { StyleSheet } from 'react-native';
+import { Colors } from '../../../styles';
+import { fontSize, hp, wp } from '../../../styles/metrics';
+import { fontFamily } from '../../../utils/functions';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.secondary5,
+    // paddingTop: hp(0.2),
+  },
+  title: {
+    fontSize: fontSize(11),
+    lineHeight: fontSize(16),
+    fontFamily: fontFamily.rf_regular,
+    color: Colors.greyish27,
+    marginTop: hp(2),
+    paddingHorizontal: wp(4.2),
+    textTransform: 'uppercase',
+    fontWeight: '500',
+  },
+  titleSub: {
+    fontSize: fontSize(11),
+    lineHeight: fontSize(16),
+    fontFamily: fontFamily.rf_regular,
+    color: Colors.greyish27,
+    marginTop: hp(4),
+    paddingHorizontal: wp(4.2),
+    textTransform: 'uppercase',
+    fontWeight: '500',
+  },
+  contentContainer: {
+    backgroundColor: Colors.white,
+    width: '100%',
+    borderRadius: 20,
+    marginTop: hp(1.35),
+    paddingVertical: hp(1.4),
+    paddingLeft: wp(8.5),
+    paddingRight: wp(5),
+    shadowColor: Colors.primary5,
+    shadowOffset: {
+      width: 0,
+      height: 0,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 15,
+    elevation: 5,
+  },
+  Container: {
+    backgroundColor: Colors.white,
+    width: '100%',
+    borderRadius: 20,
+    marginTop: hp(1.35),
+    paddingVertical: hp(1.4),
+    shadowColor: Colors.primary5,
+    shadowOffset: {
+      width: 0,
+      height: 0,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 15,
+    elevation: 5,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: wp(5.5),
+  },
+  nextButton: {
+    marginTop: hp(5),
+    minHeight: hp(6),
+    marginHorizontal: wp(5),
+    backgroundColor: Colors.primary4,
+    borderRadius: wp(4),
+    marginBottom: hp(7),
+  },
+  nextButtonText: {
+    fontSize: fontSize(17),
+    fontWeight: '500',
+    lineHeight: fontSize(22),
+    letterSpacing: -0.24,
+  },
+
+  applyMainContent: {
+    alignItems: 'center',
+    paddingVertical: hp(2),
+    backgroundColor: Colors.primary4,
+    paddingHorizontal: wp(24),
+    marginTop: hp(4),
+    marginHorizontal: wp(6),
+    borderRadius: 15,
+  },
+  applyText: {
+    color: Colors.greyish6,
+    fontSize: fontSize(17),
+    fontWeight: '500',
+    lineHeight: fontSize(16),
+    marginRight: wp(2),
+    fontFamily: fontFamily.rf_medium,
+  },
+  contentBodyIcon: {
+    alignSelf: 'center',
+    marginVertical: hp(0.26),
+  },
+  disableButton: {
+    backgroundColor: Colors.greyish26,
+    paddingHorizontal: wp(24),
+    marginTop: hp(4),
+    marginHorizontal: wp(6),
+    borderRadius: 15,
+    alignItems: 'center',
+    paddingVertical: hp(2),
+  },
+});
